@@ -1,36 +1,30 @@
 {
-  "name": "librenms/test-plugin",
-  "description": "A demo LibreNMS plugin package",
+  "name": "blizko/librenms-api-plugin",
+  "description": "A LibreNMS API Extension plugin",
   "version": "1.0.0",
   "type": "library",
   "license": "MIT",
   "authors": [
     {
-      "name": "Tony Murray",
-      "email": "murraytony@gmail.com"
+      "name": "Arturs Plisko",
+      "email": "blizko@blizko.lv"
     }
   ],
   "minimum-stability": "dev",
-  "require": {
-    "librenms/librenms": "dev-master"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^9.5"
-  },
   "autoload": {
     "psr-4": {
-      "LibreNMS\\TestPlugin\\": "src"
+      "blizko\\LibrenmsAPIPlugin\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "LibreNMS\\TestPlugin \\Tests\\": "tests"
+      "blizko\\LibrenmsAPIPlugin\\": "src"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "LibreNMS\\TestPlugin\\Providers\\TestPluginProvider"
+        "blizko\\LibrenmsAPIPlugin\\Providers\\ApiPluginProvider"
       ]
     }
   }

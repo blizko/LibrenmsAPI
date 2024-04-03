@@ -3,7 +3,7 @@
 @section('title', trans('test-plugin::text-plugin.title'))
 
 @section('content')
-    <div style="font-size: large; margin: 2em 1em">This is a test plugin.</div>
+    <div style="font-size: large; margin: 2em 1em">This is a API plugin.</div>
 
     <div style="margin: 2em">
         Running on LibreNMS {{ \LibreNMS\Util\Version::VERSION }}

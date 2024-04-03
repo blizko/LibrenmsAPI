@@ -1,6 +1,6 @@
 <?php
 
-namespace LibreNMS\TestPlugin\Hooks;
+namespace blizko\LibrenmsAPIPlugin\Hooks;
 
 use App\Plugins\Hooks\MenuEntryHook;
 
